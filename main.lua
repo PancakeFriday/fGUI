@@ -16,8 +16,8 @@ function love.load()
 			GUI.Input("Name", 0, 230, 200, 100, function(t) print(t) end),
 			GUI.Radiobutton(50, 350, {"Puppies", "Crocodiles", "Kitten"}, 3, function(i,v) print(i,v) end),
 		}),
-		GUI.Box(350, 100, 400, 400, {background_color = "#558855", padding_x = 10, padding_y = 10, overflow_x = "auto"}, {
-			GUI.Imagelist(0,0,400,50,files, function(i,v,img) print(i,v,img) end)
+		GUI.Box(350, 100, 300, 400, {background_color = "#558855", padding_x = 10, padding_y = 10, overflow_x = "auto"}, {
+			GUI.Imagelist(0,0,280,50,files, function(i,v,img) print(i,v,img) end)
 		})
 	)
 
