@@ -1,6 +1,6 @@
 local utf8 = require "utf8"
 
-local Object = require "lib.classic"
+local Object = require "classic"
 
 -- Don't really like having this here
 local function col_from_hex(s, offset)
